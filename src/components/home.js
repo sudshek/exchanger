@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
+import {
+  Button
+} from 'semantic-ui-react';
 class App extends Component {
   render() {
     return (
-      "hello world, this is first page"
+      <div>
+      "hello world, tis is first page"
+      <Button primary>
+      Click Here
+    </Button>
+    </div>
     );
   }
 }
